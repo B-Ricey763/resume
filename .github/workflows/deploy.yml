@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build_typst_documents:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -21,21 +21,21 @@ jobs:
           name: PDF
           path: "*.pdf"
 
-deploy:
-    name: Deploy
-    needs: build
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-
-    steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: production-files
-          path: "*.pdf"
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
+  deploy:
+      name: Deploy
+      needs: build
+      runs-on: ubuntu-latest
+      if: github.ref == 'refs/heads/main'
+  
+      steps:
+        - name: Download artifact
+          uses: actions/download-artifact@v3
+          with:
+            name: production-files
+            path: "*.pdf"
+  
+        - name: Deploy to GitHub Pages
+          uses: peaceiris/actions-gh-pages@v3
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: .
