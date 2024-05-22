@@ -17,7 +17,7 @@ Got this resume format from https://github.com/tzx/NNJR
   name: "Bryce Hanna",
   email: "bhanna30@gatech.edu",
   linkedin: "linkedin.com/in/bryce-hanna/",
-  site: "github.com/B-Ricey763",
+  site: "brycehanna.dev",
 )
 
 #resume_heading[Education]
