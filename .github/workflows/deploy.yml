@@ -14,7 +14,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: PDF
-          path: *.pdf
+          path: "*.pdf"
 
 deploy:
     name: Deploy
@@ -27,7 +27,7 @@ deploy:
         uses: actions/download-artifact@v3
         with:
           name: production-files
-          path: *.pdf
+          path: "*.pdf"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
