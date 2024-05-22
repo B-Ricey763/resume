@@ -1,5 +1,10 @@
 name: Deploy PDF
 
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   build_typst_documents:
     runs-on: ubuntu-latest
