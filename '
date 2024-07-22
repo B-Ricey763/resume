@@ -77,6 +77,32 @@ Got this resume format from https://github.com/tzx/NNJR
 )
 */
 
+#resume_heading("Skills")
+#skill_item(
+  category: "Languages",
+  skills: " Java, Python, C#, Lua/Luau, Rust, Typescript, Javascript, C, C++, SQL, HTML/CSS, Haskell, Kotlin, Elm",
+)
+#skill_item(
+  category: "Frameworks",
+  skills: "React.js, Node.js, Three.js, .NET, SQL Server, Pygame, Flask",
+)
+#skill_item(
+  category: "Developer Tools",
+  skills: "Git, Vim, Blender, Godot, Unreal Engine, Unity, DaVinci Resolve, Inkscape",
+)
+#skill_item(
+  category: "Volunteering",
+  skills: "Central Night Shelter, Blessings in a Backpack, MUST Ministries",
+)
+#skill_item(
+  category: "Student Organizations",
+  skills: "Phi Sigma Kappa Fraternity, Wrestling Club, Invention Studio",
+)
+#skill_item(
+  category: "Interests",
+  skills: "3D Printing, CAD, 3D Modeling, Juggling, Woodworking, Metalworking, Lockpicking, Creative Writing",
+)
+
 #resume_heading[Projects]
 #project_item(
   name: "Portfolio Website",
@@ -134,31 +160,5 @@ Got this resume format from https://github.com/tzx/NNJR
   [Teach anyone to use 3D printing, woodworking, or metalworking tools to create hands-on projects for any purpose ],
   [Gain experience and practice with tool groups, creating my own projects, to progress to a full Prototyping Instructor],
   [Maintain and service the tools in the shop, cleaning and fixing where needed in order to optimize operations],
-)
-
-#resume_heading("Skills")
-#skill_item(
-  category: "Languages",
-  skills: " Java, Python, C#, Lua/Luau, Rust, Typescript, Javascript, C, C++, SQL, HTML/CSS, Haskell, Kotlin, Elm",
-)
-#skill_item(
-  category: "Frameworks",
-  skills: "React.js, Node.js, Three.js, .NET, SQL Server, Pygame, Flask",
-)
-#skill_item(
-  category: "Developer Tools",
-  skills: "Git, Vim, Blender, Godot, Unreal Engine, Unity, DaVinci Resolve, Inkscape",
-)
-#skill_item(
-  category: "Volunteering",
-  skills: "Central Night Shelter, Blessings in a Backpack, MUST Ministries",
-)
-#skill_item(
-  category: "Student Organizations",
-  skills: "Phi Sigma Kappa Fraternity, Wrestling Club, Invention Studio",
-)
-#skill_item(
-  category: "Interests",
-  skills: "3D Printing, CAD, 3D Modeling, Juggling, Woodworking, Metalworking, Lockpicking, Creative Writing",
 )
 
