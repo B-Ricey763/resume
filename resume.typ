@@ -79,12 +79,15 @@ Got this resume format from https://github.com/tzx/NNJR
 
 #resume_heading[Projects]
 #project_item(
-  name: "Portfolio Website",
-  skills: "ThreeJS, React, React Three Fiber, Jotai, Typescript, Blender",
+  name: [
+    #link("https://brycehanna.dev/")[
+      Portfolio Website (brycehanna.dev) ]
+  ],
+  skills: "ThreeJS, React, Jotai, Typescript, Blender",
   date: "January 2024 - May 2024",
   [Developed a frontend web app to showcase projects and experience in an interactive 3D environment],
-  [Integrated declarative React components and Jotai state management with animated Blender models],
-  [Created models and animations in Blender from scratch using low-poly 3D modeling techniques],
+  [Integrated declarative React components and Jotai state management to effectively control the ThreeJS scene],
+  [Created 15 animated models in Blender from scratch using low-poly 3D modeling techniques],
 )
 #project_item(
   name: "B-29 Superfortress",
@@ -92,7 +95,7 @@ Got this resume format from https://github.com/tzx/NNJR
   date: "April 2024",
   [Developed a Game Boy Advanced game implementing WWII aircraft flight using C],
   [Added features such as scrolling backgrounds and animations using intimate knowledge of Direct Memory Access],
-  [Optimized the game by studying bitmap based video buffers and limiting draw calls],
+  [Optimized game by studying bitmap based video buffers and limiting draw calls to include 9 custom pixel art images],
 )
 /*
 #project_item(
@@ -147,7 +150,7 @@ Got this resume format from https://github.com/tzx/NNJR
 )
 #skill_item(
   category: "Developer Tools",
-  skills: "Git, Vim, Blender, Godot, Unreal Engine, Unity, DaVinci Resolve, Inkscape",
+  skills: "Git, Vim, Blender, Roblox Studio, Godot, Unreal Engine, Unity, DaVinci Resolve, Inkscape",
 )
 #skill_item(
   category: "Volunteering",
