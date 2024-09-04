@@ -28,6 +28,19 @@ Got this resume format from https://github.com/tzx/NNJR
   [*GPA*: 4.0/4.0],
   [*Concentration*: Systems & Architecture and Theory],
 )
+#resume_heading("Skills")
+#skill_item(
+  category: "Languages",
+  skills: " Java, Python, C#, Lua/Luau, Rust, Typescript, Javascript, C, C++, SQL, HTML/CSS, Haskell, Kotlin, Elm",
+)
+#skill_item(
+  category: "Frameworks",
+  skills: "React.js, Node.js, Three.js, .NET, SQL Server, Pygame, Flask",
+)
+#skill_item(
+  category: "Developer Tools",
+  skills: "Git, Bash/Zsh, Vim, Blender, Roblox Studio, Godot, Unreal Engine, Unity, DaVinci Resolve, Inkscape",
+)
 
 #resume_heading[Experience]
 #exp_item(
@@ -139,23 +152,7 @@ Got this resume format from https://github.com/tzx/NNJR
   [Maintain and service the tools in the shop, cleaning and fixing where needed in order to optimize operations],
 )
 
-#resume_heading("Skills")
-#skill_item(
-  category: "Languages",
-  skills: " Java, Python, C#, Lua/Luau, Rust, Typescript, Javascript, C, C++, SQL, HTML/CSS, Haskell, Kotlin, Elm",
-)
-#skill_item(
-  category: "Frameworks",
-  skills: "React.js, Node.js, Three.js, .NET, SQL Server, Pygame, Flask",
-)
-#skill_item(
-  category: "Developer Tools",
-  skills: "Git, Vim, Blender, Roblox Studio, Godot, Unreal Engine, Unity, DaVinci Resolve, Inkscape",
-)
-#skill_item(
-  category: "Volunteering",
-  skills: "Central Night Shelter, Blessings in a Backpack, MUST Ministries",
-)
+#resume_heading("Interests")
 #skill_item(
   category: "Student Organizations",
   skills: "Phi Sigma Kappa Fraternity, Wrestling Club, Invention Studio",
@@ -164,4 +161,3 @@ Got this resume format from https://github.com/tzx/NNJR
   category: "Interests",
   skills: "3D Printing, CAD, 3D Modeling, Juggling, Woodworking, Metalworking, Lockpicking, Creative Writing",
 )
-
