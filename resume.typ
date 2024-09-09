@@ -102,6 +102,16 @@ Got this resume format from https://github.com/tzx/NNJR
   [Integrated declarative React components and Jotai state management to effectively control the ThreeJS scene],
   [Created 15 animated models in Blender from scratch using low-poly 3D modeling techniques],
 )
+
+#project_item(
+  name: "XR Treatment for Age-Related Maticular Degeneration (AMD)",
+  skills: "Unity, C# ",
+  date: "August 2024 - Present",
+  [Evaluate 2 different XR headsets to determine the optimal device for eye-tracking to treat AMD],
+  [Construct a XR program in Unity to update the user's focal point to reduce effects of AMD],
+  [Collaborate with a doctor at Emory Hospital and UX designers for the best treatment experience],
+)
+
 #project_item(
   name: "B-29 Superfortress",
   skills: "C, Make, Game Boy Advanced",
@@ -137,7 +147,7 @@ Got this resume format from https://github.com/tzx/NNJR
   role: "CS 2110 Undergraduate Teaching Assistant",
   date: "July 2024 - Present",
   location: "Atlanta, GA",
-  [Guide and instruct a classroom of students in Lab on topics such as binary numbers, circuit logic, and C programming],
+  [Instruct a classroom of 30 students in Lab on topics such as binary numbers, circuit logic, and C programming],
   [Assist students struggling with course material in Office Hours to facilitate mastery in circuits, assembly, and C code],
   [Brainstorm and develop homework assignments and assignment auto-graders for the CS 2110 class],
 )
@@ -150,14 +160,4 @@ Got this resume format from https://github.com/tzx/NNJR
   [Teach anyone to use 3D printing, woodworking, or metalworking tools to create hands-on projects for any purpose ],
   [Gain experience and practice with tool groups, creating my own projects, to progress to a full Prototyping Instructor],
   [Maintain and service the tools in the shop, cleaning and fixing where needed in order to optimize operations],
-)
-
-#resume_heading("Interests")
-#skill_item(
-  category: "Student Organizations",
-  skills: "Phi Sigma Kappa Fraternity, Wrestling Club, Invention Studio",
-)
-#skill_item(
-  category: "Interests",
-  skills: "3D Printing, CAD, 3D Modeling, Juggling, Woodworking, Metalworking, Lockpicking, Creative Writing",
 )
