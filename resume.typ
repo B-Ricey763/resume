@@ -47,7 +47,7 @@ Got this resume format from https://github.com/tzx/NNJR
 )
 #skill_item(
   category: "Developer Tools",
-  skills: "Git, Bash/Zsh, Vim, Blender, Roblox Studio, Godot, Unreal Engine, Unity, DaVinci Resolve, Inkscape",
+  skills: "Git, Bash, Linux, Vim, Blender, Roblox Studio, Godot, Unreal Engine, Unity, Inkscape, Fusion 360",
 )
 
 #resume_heading[Experience]
@@ -61,7 +61,7 @@ Got this resume format from https://github.com/tzx/NNJR
   // Wrote 50+ tests to guarantee production quality
   // Fixed 30 bugs?
   // Add the stuff about file attachment service for configuration
-  [Applied SwaggerAPI to create a REST API endpoint for the File Attachment Service enabling the DevOps team and customers to efficienctly upload and download configuration files],
+  [Applied SwaggerAPI to create a REST API endpoint for the File Attachment Service enabling the DevOps team and customers to efficienctly upload and download configuration files on the backend server],
   [Created over 100 unit and integration tests to ensure production code quality and patched dozens of bugs in the process]
 )
 
