@@ -2,7 +2,15 @@
 Got this resume format from https://github.com/tzx/NNJR
 */
 
-#import "template.typ": resume, header, resume_heading, edu_item, exp_item, project_item, skill_item
+#import "template.typ": (
+  resume,
+  header,
+  resume_heading,
+  edu_item,
+  exp_item,
+  project_item,
+  skill_item,
+)
 
 #show: resume
 /*
@@ -35,7 +43,7 @@ Got this resume format from https://github.com/tzx/NNJR
 )
 #skill_item(
   category: "Frameworks",
-  skills: "React.js, Node.js, Three.js, .NET, SQL Server, Pygame, Flask",
+  skills: "React.js, Node.js, Three.js, .NET, SQL Server, Pygame, Flask, FastAPI, OpenCV",
 )
 #skill_item(
   category: "Developer Tools",
@@ -81,12 +89,12 @@ Got this resume format from https://github.com/tzx/NNJR
 )
 /*
 #exp_item(
-  role: "Researcher",
-  name: "Low Cost Aerial Autonomy Vertically Integrated Project",
-  location: "",
-  date: "January 2024 - Present",
-  [Collaborated with team members to characterize and implement a P51 Mustang into a custom flight dynamics model],
-  [Leveraged python with Matplotlib and Pandas to visualize Monte Carlo Tree Search algorithms with a 80% win rate in dogfighting simulations with autonomous P51s and F16s],
+role: "Researcher",
+name: "Low Cost Aerial Autonomy Vertically Integrated Project",
+location: "",
+date: "January 2024 - Present",
+[Collaborated with team members to characterize and implement a P51 Mustang into a custom flight dynamics model],
+[Leveraged python with Matplotlib and Pandas to visualize Monte Carlo Tree Search algorithms with a 80% win rate in dogfighting simulations with autonomous P51s and F16s],
 )
 */
 
@@ -107,9 +115,9 @@ Got this resume format from https://github.com/tzx/NNJR
   name: "XR Treatment for Age-Related Maticular Degeneration (AMD)",
   skills: "Unity, C# ",
   date: "August 2024 - Present",
-  [Evaluate 2 different XR headsets to determine the optimal device for eye-tracking to treat AMD],
-  [Construct a XR program in Unity to update the user's focal point to reduce effects of AMD],
-  [Collaborate with a doctor at Emory Hospital and UX designers for the best treatment experience],
+  [Leveraged Meta VR SDKs to perform eye tracking in Unity to diagnose and treat AMD],
+  [Develop a fully functional game with C\# to train patients to use a new focal point to decrease blindness],
+  [Collaborate with a Doctor at Emory Hospital and UX designers to optimize the treatment experience],
 )
 
 #project_item(
@@ -122,22 +130,22 @@ Got this resume format from https://github.com/tzx/NNJR
 )
 /*
 #project_item(
-  name: "GHEvolution",
-  skills: "Python, Pygame, Neuroevolution, Articial Intelligence",
-  date: "July 2022",
-  [Studied Natural Selection and Evolution to derive how generational evolutionary algorithms function],
-  [Implemented a simulation using Python to demonstrate learning by survival of the fittest over generations],
-  [Visualized the artificial life with Pygame and analyzed mock brain structures with Matplotlib],
+name: "GHEvolution",
+skills: "Python, Pygame, Neuroevolution, Articial Intelligence",
+date: "July 2022",
+[Studied Natural Selection and Evolution to derive how generational evolutionary algorithms function],
+[Implemented a simulation using Python to demonstrate learning by survival of the fittest over generations],
+[Visualized the artificial life with Pygame and analyzed mock brain structures with Matplotlib],
 )
 */
 
 /*
 #project_item(
-  name: "ColorChaos: THE NEXT GENERATION",
-  skills: "Luau, Roblox Studio, Blender",
-  date: "February 2020 - June 2020",
-  [Developed a Roblox game with many game modes and tools, garnering over 2 million visits and 60 concurrent players],
-  [Released monthly updates and published YouTube content to earn over \$800],
+name: "ColorChaos: THE NEXT GENERATION",
+skills: "Luau, Roblox Studio, Blender",
+date: "February 2020 - June 2020",
+[Developed a Roblox game with many game modes and tools, garnering over 2 million visits and 60 concurrent players],
+[Released monthly updates and published YouTube content to earn over \$800],
 )
 */
 
@@ -147,17 +155,17 @@ Got this resume format from https://github.com/tzx/NNJR
   role: "CS 2110 Undergraduate Teaching Assistant",
   date: "July 2024 - Present",
   location: "Atlanta, GA",
-  [Instruct a classroom of 30 students in Lab on topics such as binary numbers, circuit logic, and C programming],
-  [Assist students struggling with course material in Office Hours to facilitate mastery in circuits, assembly, and C code],
-  [Brainstorm and develop homework assignments and assignment auto-graders for the CS 2110 class],
+  [Instruct a classroom of 30 students on topics such as circuit logic, assembly, and C programming],
+  [Assist countless students learning course material in Office Hours to facilitate mastery in circuits, assembly, and C code],
+  [Create and debug teaching tools such as simulators and autograders to aid student learning],
 )
 
 #exp_item(
   name: "Flowers Invention Studio",
-  role: "Provisional Protyping Instructor",
+  role: "Prototype Instructor",
   date: "May 2024 - Present",
   location: "Atlanta, GA",
-  [Teach anyone to use 3D printing, woodworking, or metalworking tools to create hands-on projects for any purpose ],
-  [Gain experience and practice with tool groups, creating my own projects, to progress to a full Prototyping Instructor],
+  [Instruct users on woodworking, metalworking, 3D printing, and more to realize their project ideas ],
   [Maintain and service the tools in the shop, cleaning and fixing where needed in order to optimize operations],
+  [Fabricate woodworking and woodturning projects as a Woodworking Apprentice to gain specialized skills],
 )
