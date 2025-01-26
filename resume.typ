@@ -39,11 +39,11 @@ Got this resume format from https://github.com/tzx/NNJR
 #resume_heading("Skills")
 #skill_item(
   category: "Languages",
-  skills: " Java, Python, C#, Lua/Luau, Rust, Typescript, Javascript, C, C++, SQL, HTML/CSS, Haskell, Kotlin, Elm",
+  skills: " Java, Python, C#, Lua/Luau, Typescript, Javascript, C, Rust, C++, SQL, HTML/CSS, Haskell, Kotlin, Elm",
 )
 #skill_item(
   category: "Frameworks",
-  skills: "React.js, Node.js, Three.js, .NET, SQL Server, Pygame, Flask, FastAPI, OpenCV",
+  skills: "React.js, Node.js, Electron, Three.js, .NET, SQL Server, ROS, OpenCV, Pygame, Flask, FastAPI",
 )
 #skill_item(
   category: "Developer Tools",
@@ -62,12 +62,12 @@ Got this resume format from https://github.com/tzx/NNJR
   // Fixed 30 bugs?
   // Add the stuff about file attachment service for configuration
   [Applied SwaggerAPI to create a REST API endpoint for the File Attachment Service enabling the DevOps team and customers to efficienctly upload and download configuration files on the backend server],
-  [Created over 100 unit and integration tests to ensure production code quality and patched dozens of bugs in the process]
+  [Created over 100 unit and integration tests to ensure production code quality and patched dozens of bugs in the process],
 )
 
 #exp_item(
   role: "Technical Content Creator, Editor, and Relations Manager",
-  name:  [
+  name: [
     #link("https://www.youtube.com/@BRicey/")[
       Educational Computer Science YouTube Channel (\@BRicey)
     ]
@@ -85,7 +85,7 @@ Got this resume format from https://github.com/tzx/NNJR
   //    - Marble run tycoon: 14 mil visits, 66 active
   [Script, record, and edit programming tutorials on advanced concepts in the Roblox Studio Game Engine contributing to over 45 million game visits for my subscribers],
   [Educate an auidence of more than 15,000 subscribers with over 2 million total views on essential CS concepts],
-  [Analyze retention data to increase content interactions to reach an annual revenue of over \$1,500]
+  [Analyze retention data to increase content interactions to reach an annual revenue of over \$1,500],
 )
 /*
 #exp_item(
@@ -100,9 +100,18 @@ date: "January 2024 - Present",
 
 #resume_heading[Projects]
 #project_item(
+  name: "Intake AI",
+  skills: "Typescript, Electron.js, React.js, Generative AI, Technical Communication",
+  date: "December 2024 - Present",
+  [Designed and implemented a cross-platform desktop app in Electron to automate aspects of clinical psychology practices ],
+  [Worked with clients to automatically synthesize intake data into a final report using Google Gemini],
+  [Architected an error-resilient frontend in React and robust logging for optimal user experience],
+)
+#project_item(
   name: [
     #link("https://brycehanna.dev/")[
-      Portfolio Website (brycehanna.dev) ]
+      Portfolio Website (brycehanna.dev)
+    ]
   ],
   skills: "ThreeJS, React, Jotai, Typescript, Blender",
   date: "January 2024 - May 2024",
@@ -120,14 +129,14 @@ date: "January 2024 - Present",
   [Collaborate with a Doctor at Emory Hospital and UX designers to optimize the treatment experience],
 )
 
-#project_item(
-  name: "B-29 Superfortress",
-  skills: "C, Make, Game Boy Advanced",
-  date: "April 2024",
-  [Developed a Game Boy Advanced game implementing WWII aircraft flight using C],
-  [Added features such as scrolling backgrounds and animations using intimate knowledge of Direct Memory Access],
-  [Optimized game by studying bitmap based video buffers and limiting draw calls to include 9 custom pixel art images],
-)
+// #project_item(
+//   name: "B-29 Superfortress",
+//   skills: "C, Make, Game Boy Advanced",
+//   date: "April 2024",
+//   [Developed a Game Boy Advanced game implementing WWII aircraft flight using C],
+//   [Added features such as scrolling backgrounds and animations using intimate knowledge of Direct Memory Access],
+//   [Optimized game by studying bitmap based video buffers and limiting draw calls to include 9 custom pixel art images],
+// )
 /*
 #project_item(
 name: "GHEvolution",
