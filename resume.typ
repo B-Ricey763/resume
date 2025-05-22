@@ -13,12 +13,6 @@ Got this resume format from https://github.com/tzx/NNJR
 )
 
 #show: resume
-/*
-- Maybe add relevant coursework, either to education or skills/interests? cater resume to specific company
-- STAR: Situation, Task, Action, Result
-
-*/
-
 #header(
   name: "Bryce Hanna",
   email: "bhanna30@gatech.edu",
@@ -27,42 +21,97 @@ Got this resume format from https://github.com/tzx/NNJR
 )
 
 #resume_heading[Education]
-#edu_item(
-  // Remove underlines here
-  name: "Georgia Institute of Technology",
-  degree: "Bachelor of Science in Computer Science, Minor in Mathematics",
-  location: "Atlanta, GA",
-  date: "Expected Graduation May 2026",
-  [*GPA*: 4.0/4.0],
-  [*Concentration*: Systems & Architecture and Theory],
+
+// #edu_item(
+//   // Remove underlines here
+//   name: "Georgia Institute of Technology",
+//   degree: "Bachelor of Science in Computer Science",
+//   location: "Atlanta, GA",
+//   date: "Expected Graduation May 2026",
+//   [*Concentration*: Systems & Architecture and Theory $quad$ *GPA*: 4.0/4.0],
+// )
+//
+#set block(above: 0.7em, below: 0.7em)
+#pad(
+  left: 1em,
+  right: 0.5em,
+  box[
+    #grid(
+      columns: (4fr, 3fr),
+      align(left)[
+        *Bryce Hanna* \
+        _Bachelor of Science in Computer Science_\
+        *Concentration*: Systems & Architecture and Theory
+      ],
+      align(right)[
+        Atlanta, GA\
+        _Expected Graduation May 2026_\
+        *GPA*: 4.0/4.0
+      ],
+    )
+  ],
 )
+
 #resume_heading("Skills")
 #skill_item(
   category: "Languages",
-  skills: " Java, Python, C#, Lua/Luau, Typescript, Javascript, C, Rust, C++, SQL, HTML/CSS, Haskell, Kotlin, Elm",
+  skills: " Python, TypeScript, C#, Java, Lua, JavaScript, C/C++, Rust, SQL",
 )
 #skill_item(
   category: "Frameworks",
-  skills: "React.js, Node.js, Electron, Three.js, .NET, SQL Server, ROS, OpenCV, Pygame, Flask, FastAPI",
+  skills: "React, Node, Electron, Three.js, .NET, SQL Server, OpenCV, Pydantic, Flask, FastAPI",
 )
 #skill_item(
   category: "Developer Tools",
-  skills: "Git, Bash, Linux, Vim, Blender, Roblox Studio, Godot, Unreal Engine, Unity, Inkscape, Fusion 360",
+  skills: "Bash/Shell, Git, Embedded Systems, Docker, Unity, GCP, (Neo)vim, systemd, Redis, Blender",
 )
 
 #resume_heading[Experience]
+
+// #exp_item(
+//   role: "Software intern",
+//   // TODO: what to do, this is too long
+//   name: "Georgia Tech Research Institute Sensors and Electromagnetic Applications",
+//   date: "May 2025 - August 2025",
+//   location: "Smyra, GA",
+//   [Led a large scale refactor of the Threat Sensor Emulator platform],
+//   [TBD],
+//   [TBD]
+// )
+
+#exp_item(
+  name: "Global and Local Navigation Aid with Exoskeleton",
+  role: "Lead Researcher",
+  date: "March 2025 - Present",
+  location: "Atlanta, GA",
+  // TODO: add another bullet?
+  [Architected a multithreaded Python project on a raspberry Pi to navigate user through exoskeleton movements],
+  [Orchestrated Camera, IMU, GPS, and high-powered leg-mounted motors using RedisDB, web sockets, and gpsd],
+  [Extensively tested GPS and camera integration to reduce interference and errors by 50% using a custom web dashboard]
+)
+
 #exp_item(
   role: "Software Developer Intern",
   name: "Profisee",
   location: "Alpharetta, GA",
   date: "May 2023 - December 2023",
   [Utilized C\# and SQL to develop and test the Common Data Platform to standardize database access for microservices],
+
   // Everyone does these things, add numbers like efficiency and stuff
   // Wrote 50+ tests to guarantee production quality
   // Fixed 30 bugs?
   // Add the stuff about file attachment service for configuration
   [Applied SwaggerAPI to create a REST API endpoint for the File Attachment Service enabling the DevOps team and customers to efficienctly upload and download configuration files on the backend server],
+
   [Created over 100 unit and integration tests to ensure production code quality and patched dozens of bugs in the process],
+)
+#exp_item(
+  name: "XR Treatment for Age-Related Macular Degeneration (AMD)",
+  role: "Lead Programmer",
+  date: "August 2024 - Present",
+  [Leverage Meta XR SDKs to perform eye tracking in Unity to diagnose and treat AMD],
+  [Develop a game with 2 tests and 1 training scene to identify and reinforce a preferred retinal locus],
+  [Designed a web dashboard using React, Apache, and SQLite to visualize test results for doctors at Emory University],
 )
 
 #exp_item(
@@ -87,26 +136,17 @@ Got this resume format from https://github.com/tzx/NNJR
   [Educate an auidence of more than 15,000 subscribers with over 2 million total views on essential CS concepts],
   [Analyze retention data to increase content interactions to reach an annual revenue of over \$1,500],
 )
-/*
-#exp_item(
-role: "Researcher",
-name: "Low Cost Aerial Autonomy Vertically Integrated Project",
-location: "",
-date: "January 2024 - Present",
-[Collaborated with team members to characterize and implement a P51 Mustang into a custom flight dynamics model],
-[Leveraged python with Matplotlib and Pandas to visualize Monte Carlo Tree Search algorithms with a 80% win rate in dogfighting simulations with autonomous P51s and F16s],
-)
-*/
-
 #resume_heading[Projects]
-#project_item(
-  name: "Intake AI",
-  skills: "Typescript, Electron.js, React.js, Generative AI, Technical Communication",
-  date: "December 2024 - Present",
-  [Designed and implemented a cross-platform desktop app in Electron to automate aspects of clinical psychology practices ],
-  [Worked with clients to automatically synthesize intake data into a final report using Google Gemini],
-  [Architected an error-resilient frontend in React and robust logging for optimal user experience],
-)
+
+
+// #project_item(
+//   name: "Intake AI",
+//   skills: "Typescript, Electron.js, React.js, Generative AI, Technical Communication",
+//   date: "December 2024 - Present",
+//   [Designed and implemented a cross-platform desktop app in Electron to automate aspects of clinical psychology practices ],
+//   [Worked with clients to automatically synthesize intake data into a final report using Google Gemini],
+//   [Architected an error-resilient frontend in React and robust logging for optimal user experience],
+// )
 #project_item(
   name: [
     #link("https://brycehanna.dev/")[
@@ -120,14 +160,6 @@ date: "January 2024 - Present",
   [Created 15 animated models in Blender from scratch using low-poly 3D modeling techniques],
 )
 
-#project_item(
-  name: "XR Treatment for Age-Related Maticular Degeneration (AMD)",
-  skills: "Unity, C# ",
-  date: "August 2024 - Present",
-  [Leveraged Meta VR SDKs to perform eye tracking in Unity to diagnose and treat AMD],
-  [Develop a fully functional game with C\# to train patients to use a new focal point to decrease blindness],
-  [Collaborate with a Doctor at Emory Hospital and UX designers to optimize the treatment experience],
-)
 
 // #project_item(
 //   name: "B-29 Superfortress",
@@ -164,9 +196,9 @@ date: "February 2020 - June 2020",
   role: "CS 2110 Undergraduate Teaching Assistant",
   date: "July 2024 - Present",
   location: "Atlanta, GA",
-  [Instruct a classroom of 30 students on topics such as circuit logic, assembly, and C programming],
-  [Assist countless students learning course material in Office Hours to facilitate mastery in circuits, assembly, and C code],
-  [Create and debug teaching tools such as simulators and autograders to aid student learning],
+  [Instruct a classroom of 50 students on circuit logic, computer archiecture, assembly, C programming, and more],
+  [Assist hundreds of students in office hours to facilitate mastery through personalized teaching techniques],
+  [Create and debug teaching tools such as circuit/assembly simulators and autograders to aid student learning],
 )
 
 #exp_item(
@@ -174,7 +206,7 @@ date: "February 2020 - June 2020",
   role: "Prototype Instructor",
   date: "May 2024 - Present",
   location: "Atlanta, GA",
-  [Instruct users on woodworking, metalworking, 3D printing, and more to realize their project ideas ],
+  [Instruct makerspace users on woodworking, metalworking, 3D printing, and more to realize their project ideas],
   [Maintain and service the tools in the shop, cleaning and fixing where needed in order to optimize operations],
-  [Fabricate woodworking and woodturning projects as a Woodworking Apprentice to gain specialized skills],
+  [Fabricate woodworking and woodturning projects such as cutting boards and bowls to ],
 )
