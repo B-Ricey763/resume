@@ -15,10 +15,14 @@ jobs:
         uses: lvignoli/typst-action@main
         with:
           source_file: resume.typ
+      - name: Setup for upload
+        run: |
+          mkdir pages/
+          mv resume.pdf pages/resume.pdf
       - name: Upload PDF file
         uses: actions/upload-pages-artifact@v3 
         with:
-          path: resume.pdf
+          path: pages
 
   deploy:
       # Add a dependency to the build job
