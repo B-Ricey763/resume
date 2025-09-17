@@ -5,12 +5,12 @@
 
   set page(
     paper: "us-letter",
-    margin: (x: 0.25in, y: 0.25in),
+    margin: (x: 0.5in, y: 0.25in),
   )
 
   set text(
     size: 11pt,
-    font: "New Computer Modern",
+    font: "Times New Roman",
   )
 
   body
@@ -32,6 +32,7 @@
     center,
     block[
       #name_header(name) \
+      #phone |
       #link("mailto:" + email)[#email] |
       #link("https://" + linkedin)[#linkedin] |
       #link("https://" + site)[#site]

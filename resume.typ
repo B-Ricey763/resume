@@ -2,6 +2,7 @@
 Got this resume format from https://github.com/tzx/NNJR
 */
 
+
 #import "template.typ": (
   resume,
   header,
@@ -16,6 +17,7 @@ Got this resume format from https://github.com/tzx/NNJR
 #header(
   name: "Bryce Hanna",
   email: "bhanna30@gatech.edu",
+  phone: "470-695-8875",
   linkedin: "linkedin.com/in/bryce-hanna/",
   site: "brycehanna.dev",
 )
@@ -39,13 +41,13 @@ Got this resume format from https://github.com/tzx/NNJR
     #grid(
       columns: (4fr, 3fr),
       align(left)[
-        *Bryce Hanna* \
+        *Georgia Institute of Technology* \
         _Bachelor of Science in Computer Science_\
         *Concentration*: Systems & Architecture and Theory
       ],
       align(right)[
         Atlanta, GA\
-        _Expected Graduation May 2026_\
+        _Expected Graduation December 2026_\
         *GPA*: 4.0/4.0
       ],
     )
@@ -55,63 +57,39 @@ Got this resume format from https://github.com/tzx/NNJR
 #resume_heading("Skills")
 #skill_item(
   category: "Languages",
-  skills: " Python, TypeScript, C#, Java, Lua, JavaScript, C/C++, Rust, SQL",
+  skills: "Python, TypeScript, C#, Java, Lua, JavaScript, C/C++, Rust, SQL, Assembly",
 )
 #skill_item(
-  category: "Frameworks",
-  skills: "React, Node, Electron, Three.js, .NET, SQL Server, OpenCV, Pydantic, Flask, FastAPI",
+  category: "Technologies",
+  skills: "ZeroMQ, Software Defined Radio (SDR), Protocol Buffers, Redis, OpenCV, Pydantic, React, SQLite, Qt",
 )
 #skill_item(
   category: "Developer Tools",
-  skills: "Bash/Shell, Git, Embedded Systems, Docker, Unity, GCP, (Neo)vim, systemd, Redis, Blender",
+  skills: "Bash/Shell scripting, Git, Docker, GNURadio, Gitlab CI, Conda, Unity, GCP, (Neo)vim, systemd, udev",
 )
 
 #resume_heading[Experience]
 
-// #exp_item(
-//   role: "Software intern",
-//   // TODO: what to do, this is too long
-//   name: "Georgia Tech Research Institute Sensors and Electromagnetic Applications",
-//   date: "May 2025 - August 2025",
-//   location: "Smyra, GA",
-//   [Led a large scale refactor of the Threat Sensor Emulator platform],
-//   [TBD],
-//   [TBD]
-// )
-
 #exp_item(
-  name: "Global and Local Navigation Aid with Exoskeleton",
-  role: "Lead Researcher",
-  date: "March 2025 - Present",
-  location: "Atlanta, GA",
-  // TODO: add another bullet?
-  [Architected a multithreaded Python project on a raspberry Pi to navigate user through exoskeleton movements],
-  [Orchestrated Camera, IMU, GPS, and high-powered leg-mounted motors using RedisDB, web sockets, and gpsd],
-  [Extensively tested GPS and camera integration to reduce interference and errors by 50% using a custom web dashboard]
+  role: "Software Engineering Intern (Spectrum Warfare Operations and Research Division)",
+  name: "Georgia Tech Research Institute",
+  date: "May 2025 - August 2025",
+  location: "Smyrna, GA",
+  [Redesigned the Threat Sensor Emulator (TSE) radar simulator with threading and protobuf API with 1 GB/s throughput],
+  [Increased performance of CFAR detection algorithm by 30x using vectorized numpy operations and numba JIT compiling],
+  [Automated distribution of TSE via PyInstaller, Conda, and Gitlab CI for 4 operating systems building 3 internal packages],
+  [Architected a GPS activated deception program with 50 configurable options over 3 techniques on a UHD Software Defined Radio spanning 56 MHz of bandwidth using Python multiprocessing, HTML, and ZMQ]
+  // It mimic'd a plane sending IFF, fake comm messages, codes
 )
 
 #exp_item(
-  role: "Software Developer Intern",
+  role: "Software Engineering Intern",
   name: "Profisee",
   location: "Alpharetta, GA",
   date: "May 2023 - December 2023",
   [Utilized C\# and SQL to develop and test the Common Data Platform to standardize database access for microservices],
-
-  // Everyone does these things, add numbers like efficiency and stuff
-  // Wrote 50+ tests to guarantee production quality
-  // Fixed 30 bugs?
-  // Add the stuff about file attachment service for configuration
-  [Applied SwaggerAPI to create a REST API endpoint for the File Attachment Service enabling the DevOps team and customers to efficienctly upload and download configuration files on the backend server],
-
+  [Applied SwaggerAPI to create a REST API endpoint for the File Attachment Service to allow file uploads to platform],
   [Created over 100 unit and integration tests to ensure production code quality and patched dozens of bugs in the process],
-)
-#exp_item(
-  name: "XR Treatment for Age-Related Macular Degeneration (AMD)",
-  role: "Lead Programmer",
-  date: "August 2024 - Present",
-  [Leverage Meta XR SDKs to perform eye tracking in Unity to diagnose and treat AMD],
-  [Develop a game with 2 tests and 1 training scene to identify and reinforce a preferred retinal locus],
-  [Designed a web dashboard using React, Apache, and SQLite to visualize test results for doctors at Emory University],
 )
 
 #exp_item(
@@ -133,11 +111,28 @@ Got this resume format from https://github.com/tzx/NNJR
   // - https://www.roblox.com/games/9952146048/Marble-Run-Tycoon
   //    - Marble run tycoon: 14 mil visits, 66 active
   [Script, record, and edit programming tutorials on advanced concepts in the Roblox Studio Game Engine contributing to over 45 million game visits for my subscribers],
-  [Educate an auidence of more than 15,000 subscribers with over 2 million total views on essential CS concepts],
+  [Educate an audience of more than 15,000 subscribers with over 2 million total views on essential CS concepts],
   [Analyze retention data to increase content interactions to reach an annual revenue of over \$1,500],
 )
-#resume_heading[Projects]
+ #resume_heading[Projects]
 
+#project_item(
+  name: "Intuitive Navigation Assistance from an Active Wearable Exoskeleton",
+  skills: "Python, GPS, Linux",
+  date: "March 2025 - Present",
+  [Architected a multithreaded Python project on a raspberry Pi to navigate user through exoskeleton movements],
+  [Orchestrated Camera, IMU, GPS, and high-powered leg-mounted motors using RedisDB, web sockets, and gpsd],
+  [Extensively tested GPS and camera integration to reduce interference and errors by 50% using a custom web dashboard]
+)
+
+#project_item(
+  name: "XR Treatment for Age-Related Macular Degeneration (AMD)",
+  date: "August 2024 - Present",
+  skills: "Unity, C#, Typescript, React",
+  [Leverage Meta XR SDKs to track eye movement 120 times a second in Unity to diagnose and treat AMD],
+  [Develop a game with 2 tests and 1 training scene to identify and reinforce a preferred retinal locus],
+  [Designed a web dashboard using React, Apache, and SQLite to visualize test results for doctors at Emory University],
+)
 
 // #project_item(
 //   name: "Intake AI",
@@ -147,18 +142,18 @@ Got this resume format from https://github.com/tzx/NNJR
 //   [Worked with clients to automatically synthesize intake data into a final report using Google Gemini],
 //   [Architected an error-resilient frontend in React and robust logging for optimal user experience],
 // )
-#project_item(
-  name: [
-    #link("https://brycehanna.dev/")[
-      Portfolio Website (brycehanna.dev)
-    ]
-  ],
-  skills: "ThreeJS, React, Jotai, Typescript, Blender",
-  date: "January 2024 - May 2024",
-  [Developed a frontend web app to showcase projects and experience in an interactive 3D environment],
-  [Integrated declarative React components and Jotai state management to effectively control the ThreeJS scene],
-  [Created 15 animated models in Blender from scratch using low-poly 3D modeling techniques],
-)
+// #project_item(
+//   name: [
+//     #link("https://brycehanna.dev/")[
+//       Portfolio Website (brycehanna.dev)
+//     ]
+//   ],
+//   skills: "ThreeJS, React, Jotai, Typescript, Blender",
+//   date: "January 2024 - May 2024",
+//   [Developed a frontend web app to showcase projects and experience in an interactive 3D environment],
+//   [Integrated declarative React components and Jotai state management to effectively control the ThreeJS scene],
+//   [Created 15 animated models in Blender from scratch using low-poly 3D modeling techniques],
+// )
 
 
 // #project_item(
@@ -196,17 +191,17 @@ date: "February 2020 - June 2020",
   role: "CS 2110 Undergraduate Teaching Assistant",
   date: "July 2024 - Present",
   location: "Atlanta, GA",
-  [Instruct a classroom of 50 students on circuit logic, computer archiecture, assembly, C programming, and more],
+  [Instruct a classroom of 50 students on circuit logic, computer architecture, assembly, C programming, and more],
   [Assist hundreds of students in office hours to facilitate mastery through personalized teaching techniques],
   [Create and debug teaching tools such as circuit/assembly simulators and autograders to aid student learning],
 )
 
 #exp_item(
   name: "Flowers Invention Studio",
-  role: "Prototype Instructor",
+  role: "Prototype Instructor / Woodworking Apprentice",
   date: "May 2024 - Present",
   location: "Atlanta, GA",
-  [Instruct makerspace users on woodworking, metalworking, 3D printing, and more to realize their project ideas],
-  [Maintain and service the tools in the shop, cleaning and fixing where needed in order to optimize operations],
-  [Fabricate woodworking and woodturning projects such as cutting boards and bowls to ],
+  [Instruct hundreds of makerspace users on woodworking, metalworking, 3D printing, and more to realize their project ideas],
+  [Maintain and service tens of tools in the shop, cleaning and fixing where needed in order to optimize operations],
+  [Fabricate woodworking and wood turning projects such as cutting boards and bowls to become a Wood Room Master],
 )
