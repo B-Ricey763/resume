@@ -62,6 +62,17 @@ Got this resume format from https://github.com/tzx/NNJR
 
 #resume_heading[Experience]
 
+// Since these are new products and features, you should focus on architectural milestones, unblocking teams, and coverage.
+#exp_item(
+  role: "Software Engineering Intern",
+  name: "Verkada",
+  date: "January 2026 - Present",
+  location: "San Mateo, CA",
+  [Own end-to-end development of the new camera accessory firmware, delivering 8+ features in a C++ runit service while coordinating with hardware and product teams to ensure user friendly design and robust operation],
+  [Reduce support tickets by 50% by iterating on UART stability, PWM frequency, and task scheduling on FreeRTOS ],
+  [Integrate I2C-based Gauge ICs with ZephyrOS in C to automate the collection and Grafana visualization of 4 critical battery metrics for a fleet of 1,000+ cameras],
+)
+
 #exp_item(
   role: "Software Engineering Intern (Spectrum Warfare Operations and Research Division)",
   name: "Georgia Tech Research Institute",
@@ -69,7 +80,7 @@ Got this resume format from https://github.com/tzx/NNJR
   location: "Smyrna, GA",
   [Redesigned the Threat Sensor Emulator (TSE) radar simulator with threading and protobuf API with 1 GB/s throughput],
   [Increased performance of CFAR detection algorithm by 30x using vectorized numpy operations and numba JIT compiling],
-  [Automated distribution of TSE via PyInstaller, Conda, and Gitlab CI for 4 operating systems building 3 internal packages],
+  // [Automated distribution of TSE via PyInstaller, Conda, and Gitlab CI for 4 operating systems building 3 internal packages],
   [Architected a GPS activated deception program with 50 configurable options over 3 techniques on a UHD Software Defined Radio spanning 56 MHz of bandwidth using Python multiprocessing, HTML, and ZMQ]
   // It mimic'd a plane sending IFF, fake comm messages, codes
 )
@@ -92,8 +103,8 @@ Got this resume format from https://github.com/tzx/NNJR
   //    - Free UGC Tycoon: 2 mil visits, 32 active
   // - https://www.roblox.com/games/9952146048/Marble-Run-Tycoon
   //    - Marble run tycoon: 14 mil visits, 66 active
-  [Script, record, and edit programming tutorials on advanced concepts in the Roblox Studio Game Engine contributing to over 45 million game visits for my subscribers],
-  [Educate an audience of more than 15,000 subscribers with over 2 million total views on essential CS concepts],
+  [Script, record, and edit programming tutorials on advanced concepts in Roblox Studio contributing to 45 million game visits],
+  [Educate an audience of 20,000+ subscribers with over 2 million total views on essential CS concepts],
   [Analyze retention data to increase content interactions to reach an annual revenue of over \$1,500],
 )
  #resume_heading[Projects]
