@@ -24,15 +24,6 @@ Got this resume format from https://github.com/tzx/NNJR
 
 #resume_heading[Education]
 
-// #edu_item(
-//   // Remove underlines here
-//   name: "Georgia Institute of Technology",
-//   degree: "Bachelor of Science in Computer Science",
-//   location: "Atlanta, GA",
-//   date: "Expected Graduation May 2026",
-//   [*Concentration*: Systems & Architecture and Theory $quad$ *GPA*: 4.0/4.0],
-// )
-//
 #set block(above: 0.7em, below: 0.7em)
 #pad(
   left: 1em,
@@ -83,16 +74,6 @@ Got this resume format from https://github.com/tzx/NNJR
 )
 
 #exp_item(
-  role: "Software Engineering Intern",
-  name: "Profisee",
-  location: "Alpharetta, GA",
-  date: "May 2023 - December 2023",
-  [Utilized C\# and SQL to develop and test the Common Data Platform to standardize database access for microservices],
-  [Applied SwaggerAPI to create a REST API endpoint for the File Attachment Service to allow file uploads to platform],
-  [Created over 100 unit and integration tests to ensure production code quality and patched dozens of bugs in the process],
-)
-
-#exp_item(
   role: "Technical Content Creator, Editor, and Relations Manager",
   name: [
     #link("https://www.youtube.com/@BRicey/")[
@@ -133,57 +114,6 @@ Got this resume format from https://github.com/tzx/NNJR
   [Develop a game with 2 tests and 1 training scene to identify and reinforce a preferred retinal locus],
   [Designed a web dashboard using React, Apache, and SQLite to visualize test results for doctors at Emory University],
 )
-
-// #project_item(
-//   name: "Intake AI",
-//   skills: "Typescript, Electron.js, React.js, Generative AI, Technical Communication",
-//   date: "December 2024 - Present",
-//   [Designed and implemented a cross-platform desktop app in Electron to automate aspects of clinical psychology practices ],
-//   [Worked with clients to automatically synthesize intake data into a final report using Google Gemini],
-//   [Architected an error-resilient frontend in React and robust logging for optimal user experience],
-// )
-// #project_item(
-//   name: [
-//     #link("https://brycehanna.dev/")[
-//       Portfolio Website (brycehanna.dev)
-//     ]
-//   ],
-//   skills: "ThreeJS, React, Jotai, Typescript, Blender",
-//   date: "January 2024 - May 2024",
-//   [Developed a frontend web app to showcase projects and experience in an interactive 3D environment],
-//   [Integrated declarative React components and Jotai state management to effectively control the ThreeJS scene],
-//   [Created 15 animated models in Blender from scratch using low-poly 3D modeling techniques],
-// )
-
-
-// #project_item(
-//   name: "B-29 Superfortress",
-//   skills: "C, Make, Game Boy Advanced",
-//   date: "April 2024",
-//   [Developed a Game Boy Advanced game implementing WWII aircraft flight using C],
-//   [Added features such as scrolling backgrounds and animations using intimate knowledge of Direct Memory Access],
-//   [Optimized game by studying bitmap based video buffers and limiting draw calls to include 9 custom pixel art images],
-// )
-/*
-#project_item(
-name: "GHEvolution",
-skills: "Python, Pygame, Neuroevolution, Articial Intelligence",
-date: "July 2022",
-[Studied Natural Selection and Evolution to derive how generational evolutionary algorithms function],
-[Implemented a simulation using Python to demonstrate learning by survival of the fittest over generations],
-[Visualized the artificial life with Pygame and analyzed mock brain structures with Matplotlib],
-)
-*/
-
-/*
-#project_item(
-name: "ColorChaos: THE NEXT GENERATION",
-skills: "Luau, Roblox Studio, Blender",
-date: "February 2020 - June 2020",
-[Developed a Roblox game with many game modes and tools, garnering over 2 million visits and 60 concurrent players],
-[Released monthly updates and published YouTube content to earn over \$800],
-)
-*/
 
 #resume_heading[Leadership]
 #exp_item(
