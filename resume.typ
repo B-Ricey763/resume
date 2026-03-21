@@ -107,24 +107,24 @@ Got this resume format from https://github.com/tzx/NNJR
   [Educate an audience of 20,000+ subscribers with over 2 million total views on essential CS concepts],
   [Analyze retention data to increase content interactions to reach an annual revenue of over \$1,500],
 )
- #resume_heading[Projects]
+ #resume_heading[Research & Publications]
 
 #project_item(
-  name: "Intuitive Navigation Assistance from an Active Wearable Exoskeleton",
+  name: "Intuitive Navigation Assistance from an Exoskeleton",
   skills: "Python, GPS, Linux",
-  date: "March 2025 - Present",
-  [Architected a multithreaded Python project on a raspberry Pi to navigate user through exoskeleton movements],
+  date: "March 2025 - December 2025",
+  [Architected a multithreaded Python system on a raspberry Pi to navigate user through exoskeleton movements],
   [Orchestrated Camera, IMU, GPS, and high-powered leg-mounted motors using RedisDB, web sockets, and gpsd],
   [Extensively tested GPS and camera integration to reduce interference and errors by 50% using a custom web dashboard]
 )
 
 #project_item(
   name: "XR Treatment for Age-Related Macular Degeneration (AMD)",
-  date: "August 2024 - Present",
-  skills: "Unity, C#, Typescript, React",
-  [Leverage Meta XR SDKs to track eye movement 120 times a second in Unity to diagnose and treat AMD],
-  [Develop a game with 2 tests and 1 training scene to identify and reinforce a preferred retinal locus],
-  [Designed a web dashboard using React, Apache, and SQLite to visualize test results for doctors at Emory University],
+  date: "August 2024 - May 2025",
+  skills: "Unity, C#, React",
+  [Leveraged Meta XR SDKs to track eye movement in Unity to diagnose and treat AMD across 3+ retinal evaluations],
+  [Engineered a full-stack dashboard using React, Apache, and SQLite to visualize test results for doctors at Emory University],
+[*Publication:* "Asymmetric VR Design to Support Connected Care for Older Adults with AMD" submitted to DRS, 2026.]
 )
 
 #resume_heading[Leadership]
@@ -133,8 +133,8 @@ Got this resume format from https://github.com/tzx/NNJR
   role: "CS 2110 Undergraduate Teaching Assistant",
   date: "July 2024 - Present",
   location: "Atlanta, GA",
-  [Instruct a classroom of 50 students on circuit logic, computer architecture, assembly, C programming, and more],
-  [Assist hundreds of students in office hours to facilitate mastery through personalized teaching techniques],
+  [Instruct a lab of 50+ students on binary computation, circuit logic, computer architecture, assembly, and C programming],
+  [Assist 100+ students in office hours and forums to facilitate mastery through personalized teaching techniques],
   [Create and debug teaching tools such as circuit/assembly simulators and autograders to aid student learning],
 )
 
