@@ -30,15 +30,16 @@ Got this resume format from https://github.com/tzx/NNJR
   right: 0.5em,
   box[
     #grid(
-      columns: (4fr, 3fr),
+      columns: (4.5fr, 3fr),
       align(left)[
         *Georgia Institute of Technology* \
         _Bachelor of Science in Computer Science_\
-        *Concentration*: Systems & Architecture and Theory
+        *Concentration*: Systems & Architecture and Theory\
+        *Relevant Coursework*: Operating Systems, Digital Design, Compilers
       ],
       align(right)[
         Atlanta, GA\
-        _Expected Graduation December 2026_\
+        _Expected Graduation May 2027_\
         *GPA*: 4.0/4.0
       ],
     )
