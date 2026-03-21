@@ -49,15 +49,15 @@ Got this resume format from https://github.com/tzx/NNJR
 #resume_heading("Skills")
 #skill_item(
   category: "Languages",
-  skills: "Python, TypeScript, C#, Java, Lua, JavaScript, C/C++, Rust, SQL, Assembly",
+  skills: "Python, C/C++, TypeScript, Go, Bash, C#, Java, Lua, JavaScript, Rust, SQL, Assembly",
 )
 #skill_item(
   category: "Technologies",
-  skills: "ZeroMQ, Software Defined Radio (SDR), Protocol Buffers, Redis, OpenCV, Pydantic, React, SQLite, Qt",
+  skills: "POSIX/Linux Systems Programming, ZeroMQ, FreeRTOS, protobuf, SDR, OpenCV, I2C/UART, React, SQLite",
 )
 #skill_item(
   category: "Developer Tools",
-  skills: "Bash/Shell scripting, Git, Docker, GNURadio, Gitlab CI, Conda, Unity, GCP, (Neo)vim, systemd, udev",
+  skills: "Git, Docker, Make/CMake, ssh, tmux, Grafana, Gitlab CI, Conda, Unity, GCP, (Neo)vim",
 )
 
 #resume_heading[Experience]
