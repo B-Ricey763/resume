@@ -53,24 +53,24 @@ Got this resume format from https://github.com/tzx/NNJR
 )
 #skill_item(
   category: "Technologies",
-  skills: "POSIX/Linux Systems Programming, ZeroMQ, FreeRTOS, protobuf, SDR, OpenCV, I2C/UART, React, SQLite",
+  skills: "Linux Systems Programming, pthreads, ZeroMQ, FreeRTOS, protobuf, SDR, OpenCV, I2C/UART, React, SQLite",
 )
 #skill_item(
   category: "Developer Tools",
-  skills: "Git, Docker, Make/CMake, ssh, tmux, Grafana, Gitlab CI, Conda, Unity, GCP, (Neo)vim",
+  skills: "Git, Bash/Zsh/fish, Docker, Grafana, Make/CMake, ssh/scp, tmux, Gitlab CI, Conda, Unity, (Neo)vim",
 )
 
 #resume_heading[Experience]
 
-// Since these are new products and features, you should focus on architectural milestones, unblocking teams, and coverage.
 #exp_item(
   role: "Software Engineering Intern",
   name: "Verkada",
-  date: "January 2026 - Present",
+  date: "January 2026 - April 2026",
   location: "San Mateo, CA",
-  [Own end-to-end development of the new camera accessory firmware, delivering 8+ features in a C++ runit service while coordinating with hardware and product teams to ensure user friendly design and robust operation],
-  [Reduce support tickets by 50% by iterating on UART stability, PWM frequency, and task scheduling on FreeRTOS ],
-  [Integrate I2C-based Gauge ICs with ZephyrOS in C to automate the collection and Grafana visualization of 4 critical battery metrics for a fleet of 1,000+ cameras],
+  [Owned end-to-end development of the camera light accessory firmware, delivering 8+ features in a C++ runit service while coordinating with hardware and product teams to ensure user friendly design and robust operation],
+  [Reduced accessory firmware failures by 50%, iterating on UART stability and task scheduling on FreeRTOS],
+  [Slashed battery firmware upgrade time by 80% through optimization of the RS485 UART connection and scheduling timing],
+  [Integrated I2C-based Gauge ICs with ZephyrOS in C to automate the collection and Grafana visualization of critical battery metrics for a fleet of 10,000+ cameras]
 )
 
 #exp_item(
@@ -80,13 +80,12 @@ Got this resume format from https://github.com/tzx/NNJR
   location: "Smyrna, GA",
   [Redesigned the Threat Sensor Emulator (TSE) radar simulator with threading and protobuf API with 1 GB/s throughput],
   [Increased performance of CFAR detection algorithm by 30x using vectorized numpy operations and numba JIT compiling],
-  // [Automated distribution of TSE via PyInstaller, Conda, and Gitlab CI for 4 operating systems building 3 internal packages],
-  [Architected a GPS activated deception program with 50 configurable options over 3 techniques on a UHD Software Defined Radio spanning 56 MHz of bandwidth using Python multiprocessing, HTML, and ZMQ]
+  [Architected a GPS activated deception program on a UHD Software Defined Radio spanning 56 MHz of bandwidth]
   // It mimic'd a plane sending IFF, fake comm messages, codes
 )
 
 #exp_item(
-  role: "Technical Content Creator, Editor, and Relations Manager",
+  role: "Technical Content Creator & Educator",
   name: [
     #link("https://www.youtube.com/@BRicey/")[
       Educational Computer Science YouTube Channel (\@BRicey)
@@ -94,7 +93,6 @@ Got this resume format from https://github.com/tzx/NNJR
   ],
   location: "",
   date: "March 2020 - Present",
-  // ...tutorials on fundemental and advanced concepts on the Roblox Studio game engine
   // I made this post: https://www.youtube.com/post/UgkxzgdktMYKeCW641gPd1rF2i-xvqCzgWs3
   // on what games were positively affected by my channel, so here are some numbers:
   // - https://www.roblox.com/games/6755746130/UPDATE-Fruit-Juice-Tycoon-Refreshe
@@ -134,16 +132,6 @@ Got this resume format from https://github.com/tzx/NNJR
   date: "July 2024 - Present",
   location: "Atlanta, GA",
   [Instruct a lab of 50+ students on binary computation, circuit logic, computer architecture, assembly, and C programming],
-  [Assist 100+ students in office hours and forums to facilitate mastery through personalized teaching techniques],
+  [Assist hundreds of students in office hours and forums to facilitate mastery through personalized teaching techniques],
   [Create and debug teaching tools such as circuit/assembly simulators and autograders to aid student learning],
-)
-
-#exp_item(
-  name: "Flowers Invention Studio",
-  role: "Prototype Instructor / Woodworking Apprentice",
-  date: "May 2024 - Present",
-  location: "Atlanta, GA",
-  [Instruct hundreds of makerspace users on woodworking, metalworking, 3D printing, and more to realize their project ideas],
-  [Maintain and service tens of tools in the shop, cleaning and fixing where needed in order to optimize operations],
-  [Fabricate woodworking and wood turning projects such as cutting boards and bowls to become a Wood Room Master],
 )
