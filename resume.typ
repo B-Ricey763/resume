@@ -39,7 +39,7 @@ Got this resume format from https://github.com/tzx/NNJR
       ],
       align(right)[
         Atlanta, GA\
-        _Expected Graduation May 2027_\
+        _August 2023 - May 2027_\
         *GPA*: 4.0/4.0
       ],
     )
@@ -63,18 +63,25 @@ Got this resume format from https://github.com/tzx/NNJR
 #resume_heading[Experience]
 
 #exp_item(
-  role: "Software Engineering Intern",
-  name: "Verkada",
-  date: "January 2026 - April 2026",
-  location: "San Mateo, CA",
-  [Owned end-to-end development of the camera light accessory firmware, delivering 8+ features in a C++ runit service while coordinating with hardware and product teams to ensure user friendly design and robust operation],
-  [Reduced accessory firmware failures by 50%, iterating on UART stability and task scheduling on FreeRTOS],
-  [Slashed battery firmware upgrade time by 80% through optimization of the RS485 UART connection and scheduling timing],
-  [Integrated I2C-based Gauge ICs with ZephyrOS in C to automate the collection and Grafana visualization of critical battery metrics for a fleet of 10,000+ cameras]
+  role: "Incoming Software Engineering Intern",
+  name: "Stripe",
+  date: "May 2026 - August 2026",
+  location: "South San Francisco, CA",
 )
 
 #exp_item(
-  role: "Software Engineering Intern (Spectrum Warfare Operations and Research Division)",
+  role: "Software Engineering Intern | Camera Core Systems Team",
+  name: "Verkada",
+  date: "January 2026 - April 2026",
+  location: "San Mateo, CA",
+  [Owned end-to-end development of the camera light accessory firmware, architecting a C++ runit service while coordinating with hardware and product teams to investigate, design, debug, and iterate on tens of features for the new product],
+  [Reduced accessory firmware failures by 50%, iterating on UART stability and task scheduling on FreeRTOS],
+  [Slashed battery firmware upgrade time by 80% through optimization of the RS485 UART connection and scheduling timing],
+  [Integrated I2C-based Gauge ICs with ZephyrOS in C to automate the collection and Grafana visualization of critical battery metrics for a fleet of 10,000+ cameras contributing to \$6.5M in revenue]
+)
+
+#exp_item(
+  role: "Software Engineering Intern | Spectrum Warfare Operations and Research Division",
   name: "Georgia Tech Research Institute",
   date: "May 2025 - August 2025",
   location: "Smyrna, GA",
