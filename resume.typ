@@ -49,11 +49,11 @@ Got this resume format from https://github.com/tzx/NNJR
 #resume_heading("Skills")
 #skill_item(
   category: "Languages",
-  skills: "Python, C/C++, TypeScript, Go, Bash, C#, Java, Lua, JavaScript, Rust, SQL, Assembly",
+  skills: "Python, C/C++, TypeScript, Go, Bash, C#, Java, Lua, JavaScript, Ruby, Rust, SQL, Assembly",
 )
 #skill_item(
   category: "Technologies",
-  skills: "Linux Systems Programming, pthreads, ZeroMQ, FreeRTOS, protobuf, SDR, OpenCV, I2C/UART, React, SQLite",
+  skills: "Linux Systems Programming, pthreads, ZeroMQ, FreeRTOS, protobuf, SDR, OpenCV, I2C/UART, React, MCP",
 )
 #skill_item(
   category: "Developer Tools",
@@ -63,10 +63,13 @@ Got this resume format from https://github.com/tzx/NNJR
 #resume_heading[Experience]
 
 #exp_item(
-  role: "Incoming Software Engineering Intern",
+  role: "Software Engineering Intern | Sellers Contracting Team",
   name: "Stripe",
   date: "May 2026 - August 2026",
   location: "South San Francisco, CA",
+  [Created MCP tools used by legal, billing, and sales teams to discover and fitler sellers contracts from across Stripe],
+  [Designing and implementing an AI assistant for Contract Hub to streamline admin contract workflows],
+  [Actively researching improved OCR and text extraction for contract PDFs to increase LLM effectiveness and accuracy ]
 )
 
 #exp_item(
@@ -87,7 +90,7 @@ Got this resume format from https://github.com/tzx/NNJR
   location: "Smyrna, GA",
   [Redesigned the Threat Sensor Emulator (TSE) radar simulator with threading and protobuf API with 1 GB/s throughput],
   [Increased performance of CFAR detection algorithm by 30x using vectorized numpy operations and numba JIT compiling],
-  [Architected a GPS activated deception program on a UHD Software Defined Radio spanning 56 MHz of bandwidth]
+  // [Architected a GPS activated deception program on a UHD Software Defined Radio spanning 56 MHz of bandwidth]
   // It mimic'd a plane sending IFF, fake comm messages, codes
 )
 
@@ -114,14 +117,6 @@ Got this resume format from https://github.com/tzx/NNJR
 )
  #resume_heading[Research & Publications]
 
-#project_item(
-  name: "Intuitive Navigation Assistance from an Exoskeleton",
-  skills: "Python, GPS, Linux",
-  date: "March 2025 - December 2025",
-  [Architected a multithreaded Python system on a raspberry Pi to navigate user through exoskeleton movements],
-  [Orchestrated Camera, IMU, GPS, and high-powered leg-mounted motors using RedisDB, web sockets, and gpsd],
-  [Extensively tested GPS and camera integration to reduce interference and errors by 50% using a custom web dashboard]
-)
 
 #project_item(
   name: "XR Treatment for Age-Related Macular Degeneration (AMD)",
@@ -130,6 +125,15 @@ Got this resume format from https://github.com/tzx/NNJR
   [Leveraged Meta XR SDKs to track eye movement in Unity to diagnose and treat AMD across 3+ retinal evaluations],
   [Engineered a full-stack dashboard using React, Apache, and SQLite to visualize test results for doctors at Emory University],
 [*Publication:* "Asymmetric VR Design to Support Connected Care for Older Adults with AMD" submitted to DRS, 2026.]
+)
+
+#project_item(
+  name: "Intuitive Navigation Assistance from an Exoskeleton",
+  skills: "Python, GPS, Linux",
+  date: "March 2025 - December 2025",
+  [Architected a multithreaded Python system on a raspberry Pi to navigate user through exoskeleton movements],
+  // [Orchestrated Camera, IMU, GPS, and high-powered leg-mounted motors using RedisDB, web sockets, and gpsd],
+  [Extensively tested GPS and camera integration to reduce interference and errors by 50% using a custom web dashboard]
 )
 
 #resume_heading[Leadership]
