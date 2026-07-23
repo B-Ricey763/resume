@@ -67,9 +67,9 @@ Got this resume format from https://github.com/tzx/NNJR
   name: "Stripe",
   date: "May 2026 - August 2026",
   location: "South San Francisco, CA",
-  [Created MCP tools used by legal, billing, and sales teams to discover and fitler sellers contracts from across Stripe],
-  [Designing and implementing an AI assistant for Contract Hub to streamline admin contract workflows],
-  [Actively researching improved OCR and text extraction for contract PDFs to increase LLM effectiveness and accuracy ]
+  [Prototyped and iterated on an  AI assistant for Contract Hub to save the onboarding team \~20 hours per week],
+  [Discovered an OCR text extraction strategy for contract PDFs to increase LLM metadata extraction effectiveness by 12%],
+  [Created MCP tools used by legal, billing, and sales teams to discover and fitler sellers contracts from across Stripe]
 )
 
 #exp_item(
@@ -90,7 +90,7 @@ Got this resume format from https://github.com/tzx/NNJR
   location: "Smyrna, GA",
   [Redesigned the Threat Sensor Emulator (TSE) radar simulator with threading and protobuf API with 1 GB/s throughput],
   [Increased performance of CFAR detection algorithm by 30x using vectorized numpy operations and numba JIT compiling],
-  // [Architected a GPS activated deception program on a UHD Software Defined Radio spanning 56 MHz of bandwidth]
+  [Architected a GPS activated deception program on a UHD Software Defined Radio spanning 56 MHz of bandwidth]
   // It mimic'd a plane sending IFF, fake comm messages, codes
 )
 
@@ -113,7 +113,7 @@ Got this resume format from https://github.com/tzx/NNJR
   //    - Marble run tycoon: 14 mil visits, 66 active
   [Script, record, and edit programming tutorials on advanced concepts in Roblox Studio contributing to 45 million game visits],
   [Educate an audience of 20,000+ subscribers with over 2 million total views on essential CS concepts],
-  [Analyze retention data to increase content interactions to reach an annual revenue of over \$1,500],
+  // [Analyze retention data to increase content interactions to reach an annual revenue of over \$1,500],
 )
  #resume_heading[Research & Publications]
 
